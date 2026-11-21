@@ -6,7 +6,7 @@ The introduction summarizes the content of this project quite well, so I will co
 
 A European call option gives its holder the right, but not the obligation, to buy an underlying asset at a fixed strike price $E$ and expiry date $T$. If $S_T$ is the asset price at expiry, the holder receives the payoff
 
-$$\max(S_T - E,\, 0).$$
+$$\max(S_T - E\, 0).$$
 
 We aim to find the theoretical fair price today, $V(S_0, t)$, given the spot price $S_0$, strike $E$, time to expiry $T-t$, volatility $\sigma$, risk-free rate $r$ and continuous dividend yield $D$.
 
