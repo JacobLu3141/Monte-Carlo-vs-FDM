@@ -22,8 +22,7 @@ $$V(S,t) = e^{-r(T-t)}\,\mathbb{E}^{\mathbb{Q}}\big[\max(S_T-E,0)\big].$$
 
 **PDE form (used in Task 2).** Delta hedging removes the risk, and $V$ satisfies the Black-Scholes equation
 
-$$\frac{\partial V}{\partial t} + \tfrac12\sigma^2 S^2\frac{\partial^2 V}{\partial S^2}
-+ (r-D)S\frac{\partial V}{\partial S} - rV = 0,\qquad S\in[0,\infty),\; t\in(0,T),$$
+\frac{\partial V}{\partial t} + \tfrac12\sigma^2 S^2\frac{\partial^2 V}{\partial S^2} + (r-D)S\frac{\partial V}{\partial S} - rV = 0, \qquad S\in[0,\infty),\; t\in(0,T)
 
 with the conditions
 
