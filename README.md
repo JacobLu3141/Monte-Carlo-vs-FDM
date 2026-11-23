@@ -1,4 +1,5 @@
-markdown
+The introduction summarizes the content of this project quite well, so I will copy it here.
+
 ## 1. Introduction
 
 ### 1.1 The financial problem
